@@ -102,7 +102,9 @@ function NewProjectForm({ btnText, handleSubmit, projectData }) {
                     value={project.description ? project.description : ''}
                     /> 
               
-         
+                    <div className="m-16px text-center">
+                        <Button type="submit" buttonText={btnText} buttonClass="info" />
+                    </div>
             </form>
         </>
     )

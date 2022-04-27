@@ -16,7 +16,7 @@
     height: 40px;
 }
 
-.form_group  input::placeholder {
+.form_group  input::placeholder, .form_group  textarea::placeholder {
     color: #ffffff;
 }
 
