@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Jandira Couto",
+      "email": "jandira@gmail.com",
+      "phone": "(48)984000000",
+      "description": "Cliente chegou através de outro cliente. Faz Massoteria e fechou pacote e blablablabalabl...",
+      "budget": 100
+    },
+    {
+      "id": 2,
+      "name": "Marcia Liger",
+      "email": "marcia@gmail.com",
+      "phone": "(48)984000011",
+      "description": "Cliente chegou através de outro cliente. Faz Massoteria e fechou pacote e blablablabalabl...",
+      "budget": 400
+    },
+    {
+      "id": 3,
+      "name": "Neusa Maria",
+      "email": "neura@gmail.com",
+      "phone": "(48)984000333",
+      "description": "Cliente chegou através de outro cliente. Faz Massoteria e fechou pacote e blablablabalabl...",
+      "budget": 1.4
+    },
+    {
+      "name": "thiago",
+      "email": "thiagolucio@gmail.com",
+      "phone": "984037518",
+      "description": "-ventosa, acupuntura",
+      "budget": "189",
+      "category": {
+        "id": "3",
+        "name": "Ventosa"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Aurículo terapia"
+    },
+    {
+      "id": 2,
+      "name": "Massoterapia"
+    },
+    {
+      "id": 3,
+      "name": "Ventosa"
+    },
+    {
+      "id": 4,
+      "name": "Massagem"
+    },
+    {
+      "id": 5,
+      "name": "Acunpuntura"
+    }
+  ]
+}

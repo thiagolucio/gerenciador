@@ -1,0 +1,17 @@
+.form_new_project {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+
+
+.form_new_project div {
+    min-width: 380px;
+    margin: 8px auto;
+}
+
+
+

@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+  }
+  
+  .App-logo {
+    height: 5vmin;
+    pointer-events: none;
+    float: left;
+    margin: 8px;
+  }
+  
+  .start_menu_area,
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 16px;
+    font-weight: semi-bold;
+    color: #334c5b;
+    font-family: 'Pacifico', cursive;
+    gap: 16px;
+    list-style: none;
+    margin-right: 30px;
+  }
+  
+  .start_menu_area>* {
+    color: #334c5b;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  li {
+    text-transform: capitalize;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #334c5b;
+  }
+  
+  li a:hover {
+    color: #da67ae;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 680px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      height: 120px;
+    }
+  
+    .App-logo {
+      height: 8vmin;
+      float: none;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+  }

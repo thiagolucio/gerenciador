@@ -1,0 +1,29 @@
+.container {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px auto;
+    flex-wrap: wrap;
+  }
+
+  .min_height {
+    min-height: 85vh;
+  }
+
+  .flex_column {
+    flex-direction: column;
+  }
+  
+  .centralize {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .start {
+    justify-content: flex-start;
+  }
+
+  .end {
+    justify-content: flex-end;
+  }

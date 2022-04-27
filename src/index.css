@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: rgb(246, 201, 222); */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: #334c5b;
+}
+
+.font_logo {
+  font-family: 'Pacifico', cursive;
+}
+
+.font_normal {
+  font-size: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+}
+
+.col-small {
+  width: 33.33%;
+  height: 100%;
+}
+
+.col-full {
+  width: 100%;
+  height: 100%;
+}
+
+.col-haf {
+  width: 50%;
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex_vertical {
+  flex-direction: column;
+}
+
+.centralize {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flex_start {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.flex_end {
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gap8 {
+  gap: 8px;
+}
+
+.gap16 {
+  gap: 16px;
+}
+
+.p-16px {
+  padding: 16px;
+}
+
+.p-8px {
+  padding: 8px;
+}
+
+.m-16px {
+  margin: 16px 0;
+}
+
+.m-20px {
+  margin: 20px 0;
+}
+
+.font_20 {
+  font-size: 20px;
+}
+.font_18 {
+  font-size: 18px;
+}
+
+.font_16 {
+  font-size: 16px;
+}
+
+
+.img_responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media (max-width: 680px) {
+
+  .img_responsive {
+    max-width: 320px;
+    height: auto;
+  }
+    
+}
