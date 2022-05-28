@@ -19,7 +19,7 @@ function TopMenu() {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/projeto">Clientes</Link>
+                    <Link to="/projetos">Clientes</Link>
                 </li>
                 <li>
                     <Link to="/novo-projeto">

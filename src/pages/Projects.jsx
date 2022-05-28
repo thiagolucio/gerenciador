@@ -1,9 +1,19 @@
-import React  from 'react';
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+import Message from '../components/Message/Message';
+
 
 function Projects() {
+     const location = useLocation();
+
+     let message = ''
+     if (location.state) {
+        message = location.state.message;
+    }
+
     return (
-        <div>
-            <h1>Projects</h1>
+        <div className='col-full p-16px'>
+            {message && <Message type='success' msg={message} />}
         </div>
     );
 }

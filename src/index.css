@@ -12,7 +12,12 @@ body {
   /* background: rgb(246, 201, 222); */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 400;
   color: #334c5b;
 }
@@ -109,6 +114,7 @@ code {
 .font_20 {
   font-size: 20px;
 }
+
 .font_18 {
   font-size: 18px;
 }
@@ -127,11 +133,42 @@ code {
   width: 100%;
 }
 
+
+.badge {
+  background-color: #36cef4;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 14px;
+  min-width: 20px;
+  padding: 8px 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.success {
+  background: greenyellow;
+  color: #333333;
+  border: 2px solid rgb(153, 231, 27);
+}
+
+.error {
+  background: #f44336;
+  color: #ffffff;
+  border: 2px solid #943d37;
+}
+
+.info {
+  background: #36f4d4;
+  color: #333333;
+  border: 2px solid #21bfd4;
+}
+
 @media (max-width: 680px) {
 
   .img_responsive {
     max-width: 320px;
     height: auto;
   }
-    
+
 }
