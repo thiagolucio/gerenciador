@@ -65,6 +65,20 @@
       "cost": 0,
       "services": [],
       "id": 6
+    },
+    {
+      "name": "Thiago Lucio Bittencourt",
+      "email": "thiagolucio@gmail.com",
+      "phone": "498793248793487",
+      "budget": "300",
+      "category": {
+        "id": "4",
+        "name": "Massagem"
+      },
+      "description": "Massagem ",
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
